@@ -1,0 +1,16 @@
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /* line-height: 80px; */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+    border-bottom: 1px solid #364f6b;
+    background: hsl(308, 81%, 54%);
+}   
+
+/* section{
+    background-color: pink;
+} */
