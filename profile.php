@@ -14,7 +14,7 @@
   
 <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
         <div class="container">
-          <div class="gambar"><img src="logo.png" alt=""></div>
+          <div class="gambar"><img src="foto/logo.png" alt=""></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -65,9 +65,9 @@
   <div class="col"><br><br><br>
     <div class="card h-9"><br><br>
     <center>
-      <img class="rounded-circle" src="card1.jpg"  alt="..." height="180" width="180"></center>
+      <img class="rounded-circle" src="foto/card1.jpg"  alt="..." height="180" width="180"></center>
       <div class="card-body">
-        <h5 class="card-title text-center">Destination (TOPEKSSS)</h5>
+        <h5 class="card-title text-center">Destination</h5>
         <p class="card-text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est doloremque exercitationem nobis tenetur corporis? Veritatis molestias sunt et pariatur reprehenderit quod tempora, excepturi, id voluptates quas animi aliquid inventore mollitia.</p>
       </div>
       <!-- <div class="card-footer text-end">
@@ -84,7 +84,7 @@
   <div class="col">
     <div class="card h-85"><br><br>
       <center>
-      <img class="rounded-circle" src="h.png"  alt="..." height="180" width="180"></center>
+      <img class="rounded-circle" src="foto/h.png"  alt="..." height="180" width="180"></center>
       <div class="card-body">
         <h5 class="card-title text-center">History</h5>
         <p class="card-text text-center">SMK Negeri 1 Pasuruan bermula dari Sekolah Menengah Ekonomi Pertama (SMEP) yang berdomisili di Jalan Veteran 11 Pasuruan, Telp. 0343-421380, dibangun diatas tanah seluas 8950 meter persegi berdasarkan sertifikat No. 886/ 1985</p>
@@ -109,7 +109,7 @@
     <div class="col"><br><br><br>
     <div class="card h-90"><br><br>
       <center>
-      <img class="rounded-circle" src="card4.jpg"  alt="..." height="180" width="180"></center>
+      <img class="rounded-circle" src="foto/card4.jpg"  alt="..." height="180" width="180"></center>
       <div class="card-body">
         <h5 class="card-title text-center">About Us</h5>
         <p class="card-text text-center">RPL adalah sebuah jurusan yang mempelajari dan mendalami semua cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak dan manajemen kualitas.</p>

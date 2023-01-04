@@ -18,7 +18,7 @@
   
 <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
         <div class="container">
-          <div class="gambar"><img src="logo.png" alt=""></div>
+          <div class="gambar"><img src="foto/logo.png" alt=""></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -80,10 +80,10 @@
               <p>               
                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio dolores, a, doloremque quaerat temporibus quas soluta pariatur officia asperiores illo beatae atque itaque eos quos enim. Libero neque corporis minus nobis, laboriosam inventore alias. Perspiciatis nobis vitae porro impedit nihil.
               </p>
-              <!-- <div class="lead" id="DisplayClock" class="clock" onload="showTime()"></div></center> -->
+              <div class="lead" id="DisplayClock" class="clock" onload="showTime()"></div></center>
             </div>
             <div class="col-md-6">
-            <img src="bg1.jpg" class="d-block w-100" alt="..." height="400">
+            <img src="foto/bg1.jpg" class="d-block w-100" alt="..." height="400">
           </div>
           </div>
           </div>
@@ -92,7 +92,7 @@
           <div class="carousel-item">
             <div class="row">
             <div class="col-md-6">
-            <img src="bg2.jpg" class="d-block w-100" alt="..." height="400"> </div>
+            <img src="foto/bg2.jpg" class="d-block w-100" alt="..." height="400"> </div>
                       
             <div class="col-md-6">              
             <div class="text">
@@ -128,7 +128,7 @@
               </p>
             </div>
             <div class="col-md-6">
-            <img src="bg3.jpg" class="d-block w-100" alt="..." height="400">
+            <img src="foto/bg3.jpg" class="d-block w-100" alt="..." height="400">
           </div>
           </div>
         </div>

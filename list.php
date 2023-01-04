@@ -30,7 +30,7 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
     <body>
     <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
         <div class="container">
-          <div class="gambar"><img src="logo.png" alt=""></div>
+          <div class="gambar"><img src="foto/logo.png" alt=""></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
