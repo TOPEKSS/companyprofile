@@ -30,7 +30,7 @@
               </li>
              
               <li class="nav-item">
-                <a class="nav-link " href="list.php"><b>Data Siswa</b></a>
+                <a class="nav-link " href="proses/list.php"><b>Data Siswa</b></a>
               </li>    
               <li class="nav-item">
                 <a class="nav-link" href="Kontak.php"><b>Contact</b></a>
@@ -154,7 +154,7 @@
 <div class="text-center">
     <h4 class="text-dark">Cari Data Siswa</h4>
     <p class="card-text"><div>
-      <form class="d-flex h-25" role="search" action="search.php" method="get ">
+      <form class="d-flex h-25" role="search" action="./proses/search.php" method="get">
         <input class="form-control me-2 text-primary " type="search" name="keyword" aria-label="Search" placeholder="Cari Data..." />
         <!-- <button class="btn btn-outline-success  text-light" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
         <button type="submit" class="btn bg-primary ">

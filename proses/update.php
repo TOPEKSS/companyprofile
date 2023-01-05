@@ -1,5 +1,5 @@
 <?php
-include('connection.php');
+include('../config/connection.php');
 
 $id = $_POST['id'];
 $nama = $_POST['nama'];

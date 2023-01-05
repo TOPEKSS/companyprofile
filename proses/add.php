@@ -28,7 +28,7 @@
               </li>
              
               <li class="nav-item">
-                <a class="nav-link" href="list.php"><b>Data Siswa</b></a>
+                <a class="nav-link" href="proses/list.php"><b>Data Siswa</b></a>
               </li>    
               <li class="nav-item">
                 <a class="nav-link" href="Kontak.php"><b>Contact</b></a>
@@ -207,8 +207,7 @@
 </div> 
 </div>
 </div>
-    <div class="text-center">
-             <h6>&copy; copyright 2022. <b>Tim Coding Skensa.</b> All Right Reserved.</h6>
-        </div> 
+    
 </body>
+
 </html>

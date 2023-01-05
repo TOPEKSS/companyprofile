@@ -31,17 +31,17 @@
             <ul class="navbar-nav offset-lg-8 mb-2 mb-lg-1">
               <li class="nav-item">
                 <section id="home">
-                <a class="nav-link active" href="../index.php"><b>Home</b></a>
+                <a class="nav-link active" href="index.php"><b>Home</b></a>
               </li>
              
               <li class="nav-item">
-                <a class="nav-link" href="list.php"><b>Data Siswa</b></a>
+                <a class="nav-link" href="proses/list.php"><b>Data Siswa</b></a>
               </li>    
               <li class="nav-item">
-                <a class="nav-link" href="../Kontak.php"><b>Contact</b></a>
+                <a class="nav-link" href="Kontak.php"><b>Contact</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../profile.php"><b>About</b></a>
+                <a class="nav-link" href="profile.php"><b>About</b></a>
               </li>
 
               <!-- <li class="navbar-brand">
@@ -78,7 +78,7 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
             <div class="card mb-3 " style="max-width: 100%;">
             <div class="row g-0">
               <div class="col-md-4">  
-              <?php echo "<img src='../$result[file]' width='300' height='300'>"; ?>
+              <?php echo "<img src='$result[file]' width='300' height='300'>"; ?>
               </div><br><br>
               <div class="col-md-8 ">
                 <div class="card-body">

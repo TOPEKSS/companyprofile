@@ -21,7 +21,7 @@
 <body>
 <?php
 
-include('connection.php');
+include('../config/connection.php');
 
 $query = mysqli_query($connect, 'SELECT * FROM karyawan');
 $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
@@ -38,17 +38,17 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
             <ul class="navbar-nav offset-lg-8 mb-2 mb-lg-1">
               <li class="nav-item">
                 <section id="home">
-                <a class="nav-link" href="index.php"><b>Home</b></a>
+                <a class="nav-link" href="../index.php"><b>Home</b></a>
               </li>
              
               <li class="nav-item">
-                <a class="nav-link active" href="list.php"><b>Data Siswa</b></a>
+                <a class="nav-link active" href="proses/list.php"><b>Data Siswa</b></a>
               </li>    
               <li class="nav-item">
-                <a class="nav-link" href="Kontak.php"><b>Contact</b></a>
+                <a class="nav-link" href="../Kontak.php"><b>Contact</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="profile.php"><b>About</b></a>
+                <a class="nav-link" href="../profile.php"><b>About</b></a>
               </li>
 
               <!-- <li class="navbar-brand">
@@ -100,7 +100,7 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
                     <td><?php echo $result['kelas']?></td>
                     <td>
                       <center>
-                        <?php echo "<img src='$result[file]' width='35' height='40'>"; ?> 
+                        <?php echo "<img src='../$result[file]' width='35' height='40'>"; ?> 
                       </center>              
                     </td>
                     <td>

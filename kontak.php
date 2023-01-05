@@ -28,7 +28,7 @@
               </li>
              
               <li class="nav-item">
-                <a class="nav-link" href="list.php"><b>Data Siswa</b></a>
+                <a class="nav-link" href="proses/list.php"><b>Data Siswa</b></a>
               </li>    
               <li class="nav-item">
                 <a class="nav-link active" href="Kontak.php"><b>Contact</b></a>

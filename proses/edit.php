@@ -26,7 +26,7 @@
               </li>
              
               <li class="nav-item">
-                <a class="nav-link" href="list.php"><b>Data Siswa</b></a>
+                <a class="nav-link" href="proses/list.php"><b>Data Siswa</b></a>
               </li>    
               <li class="nav-item">
                 <a class="nav-link" href="Kontak.php"><b>Contact</b></a>
@@ -68,7 +68,7 @@
         
         <div class="container" >
 <div class="row justify-content-center">
-    <form action="update.php" method="post" class="row g-3 needs-validation" enctype="multipart/form-data">
+    <form action="proses/update.php" method="post" class="row g-3 needs-validation" enctype="multipart/form-data">
 
     <input type="hidden" name="id" value="  <?php echo $result[0]['id']?>">
     
@@ -167,9 +167,7 @@
 </div>
 
 
-    <div class="text-center">
-             <h6>&copy; copyright 2022. <b>Tim Coding Skensa.</b> All Right Reserved.</h6>
-        </div> 
+    
 
 </body>
 </html>
