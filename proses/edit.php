@@ -12,9 +12,22 @@
     <script src="https://cdn.rawgit.com/PascaleBeier/bootstrap-validate/v2.2.5/dist/bootstrap-validate.js" ></script> -->
 </head>
 <body>
+<?php
+
+include('../config/connection.php');
+
+// $id = $_POST['id'];
+
+$query = mysqli_query($connect, "SELECT * FROM karyawan where id = '" . $_GET['id'] . "'");
+
+
+$results = mysqli_fetch_array($query, MYSQLI_ASSOC);
+// var_dump($results);
+// die;
+?>
 <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
         <div class="container">
-          <div class="gambar"><img src="logo.png" alt=""></div>
+          <div class="gambar"><img src="foto/logo.png" alt=""></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -22,7 +35,7 @@
             <ul class="navbar-nav offset-lg-8 mb-2 mb-lg-1">
               <li class="nav-item">
                 <section id="home">
-                <a class="nav-link active" href="index.php"><b>Home</b></a>
+                <a class="nav-link active" href="../index.php"><b>Home</b></a>
               </li>
              
               <li class="nav-item">
@@ -68,20 +81,20 @@
         
         <div class="container" >
 <div class="row justify-content-center">
-    <form action="proses/update.php" method="post" class="row g-3 needs-validation" enctype="multipart/form-data">
+    <form action="update.php" method="post" class="row g-3 needs-validation" enctype="multipart/form-data">
 
-    <input type="hidden" name="id" value="  <?php echo $result[0]['id']?>">
+    <input type="hidden" name="id" value="  <?php echo $results['id']?>">
     
     <div class="col-md-4" >
       <label for="validationCustom01" class="form-label text-dark">NAMA :</label>
-      <input type="text" name="nama" class="form-control" id="validationCustom01" value="<?php echo $result[0]['nama']?>" required>
+      <input type="text" name="nama" class="form-control" id="validationCustom01" value="<?php echo $results['nama']?>" required>
       <div class="valid-feedback">
         Looks good!
       </div>
     </div>
     <div class="col-md-4">
       <label for="validationCustom02" class="form-label text-dark">ALAMAT :</label>
-      <input type="text" name="alamat" class="form-control" id="validationCustom02" value="<?php echo $result[0]['alamat']?>" required>
+      <input type="text" name="alamat" class="form-control" id="validationCustom02" value="<?php echo $results['alamat']?>" required>
       <div class="valid-feedback">
         Looks good!
       </div>
@@ -90,7 +103,7 @@
     <div class="col-md-4">
       <label for="validationCustomUsername" class="form-label text-dark">UMUR :</label>
       <div class="input-group has-validation" >
-        <input type="text" name="umur" onkeypress="return hanyaAngka(event); "class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" value="<?php echo $result[0]['umur']?>" required >
+        <input type="text" name="umur" onkeypress="return hanyaAngka(event); "class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" value="<?php echo $results['umur']?>" required >
         <div class="invalid-feedback">
           Please choose a username.
         </div>
@@ -99,12 +112,12 @@
     
     <label class="form-label text-dark">JENIS KELAMIN :</label><br/>
           <select name="jenis_kelamin" class="form-select" aria-label="Default select example">
-          <option value="Pria" <?php echo ($result[0]['jenis_kelamin'] == 'Pria') ? 'selected' : ''; ?>>Pria</option>
-            <option value="Wanita" <?php echo ($result[0]['jenis_kelamin'] == 'Wanita') ? 'selected' : ''; ?>>Wanita</option>
+          <option value="Pria" <?php echo ($results['jenis_kelamin'] == 'Pria') ? 'selected' : ''; ?>>Pria</option>
+            <option value="Wanita" <?php echo ($results['jenis_kelamin'] == 'Wanita') ? 'selected' : ''; ?>>Wanita</option>
           </select>
           <div class="col-md-4" >
       <label for="validationCustom01" class="form-label text-dark">KELAS :</label>
-      <input type="text" name="kelas" class="form-control" id="validationCustom01" value="<?php echo $result[0]['kelas']?>" required>
+      <input type="text" name="kelas" class="form-control" id="validationCustom01" value="<?php echo $results['kelas']?>" required>
       <div class="valid-feedback">
         Looks good!
       </div>

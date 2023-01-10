@@ -19,6 +19,7 @@
     
 </head>
 <body>
+  
 <?php
 
 include('../config/connection.php');
@@ -29,7 +30,7 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
 <html>
     <body>
     <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
-        <div class="container">
+    <div class="container">
           <div class="gambar"><img src="foto/logo.png" alt=""></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -122,30 +123,24 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
                               <div class="modal-body">
                          
                               <p><i>Note: Dibawah ini adalah detail informasi siswa berdasarkan id siswa</i></p>
-                              <table border="0" cellpadding="4">
-                                  
-                                      <td>Nama</td>
-                                      <td>: <?php echo $result['nama']?></td>
-                                  </tr>
-                                  <tr>
-                                      <td>Alamat</td>
-                                      <td>: <?php echo $result['alamat']?></td>
-                                  </tr>
-                                  <tr>
-                                      <td>Umur</td>
-                                      <td>: <?php echo $result['umur']?></td>
-                                  </tr>
-                                  <tr>
-                                      <td>Jenis Kelamin</td>
-                                      <td>: <?php echo $result['jenis_kelamin']?></td>
-                                  </tr>
-                                  <tr>
-                                      <td>Kelas</td>
-                                      <td>: <?php echo $result['kelas']?></td>
-                                  </tr>
-                                  
-                              </table><br>
-                              <a href="untuk gambar.php">Lihat Gambar</a>
+                              <div class="card mb-3 " style="max-width: 100%;">
+            <div class="row g-0">
+              <div class="col-md-4"><br><br><br><center> 
+              <?php echo "<img src='../$result[file]' width='110' height='110'>"; ?></center> 
+              </div><br><br>
+              <div class="col-md-8 ">
+                <div class="card-body">
+                 
+                  <p class="card-text "><b>
+                  <p>Nama : <?php echo $result['nama']?></p>
+                  <p>Alamat : <?php echo $result['alamat']?></p>
+                  <p>Umur : <?php echo $result['umur']?></p>
+                  <p>Jenis Kelamin : <?php echo $result['jenis_kelamin']?></p>
+                  <p>Kelas : <?php echo $result['kelas']?></p></p></b>
+                </div>
+              </div>
+            </div>
+          </div>        
                               </div>
                               <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

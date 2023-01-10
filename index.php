@@ -16,6 +16,7 @@
 </head>
 <body>
   
+  
 <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
         <div class="container">
           <div class="gambar"><img src="foto/logo.png" alt=""></div>
