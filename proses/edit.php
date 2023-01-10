@@ -27,7 +27,7 @@ $results = mysqli_fetch_array($query, MYSQLI_ASSOC);
 ?>
 <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
         <div class="container">
-          <div class="gambar"><img src="foto/logo.png" alt=""></div>
+        <div class="gambar"><img class="rounded-circle" src="../foto/logo.png " width='40' height='40'  alt=""></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,13 +39,13 @@ $results = mysqli_fetch_array($query, MYSQLI_ASSOC);
               </li>
              
               <li class="nav-item">
-                <a class="nav-link" href="proses/list.php"><b>Data Siswa</b></a>
+                <a class="nav-link" href="list.php"><b>Data Siswa</b></a>
               </li>    
               <li class="nav-item">
-                <a class="nav-link" href="Kontak.php"><b>Contact</b></a>
+                <a class="nav-link" href="../Kontak.php"><b>Contact</b></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="profile.php"><b>About</b></a>
+                <a class="nav-link" href="../profile.php"><b>About</b></a>
               </li>
 
               <!-- <li class="navbar-brand">

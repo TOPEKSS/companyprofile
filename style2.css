@@ -1,5 +1,5 @@
-.gambar img {
-    height: 40px;
-    width: 40px;
+.gambar {
+    height: 40%;
+    width: 35%;
     border-radius: 50%;
 }
