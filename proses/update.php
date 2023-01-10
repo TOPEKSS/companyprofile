@@ -11,7 +11,7 @@ $kelas = $_POST['kelas'];
 $update = mysqli_query($connect, "UPDATE karyawan SET nama='$nama', alamat='$alamat', umur='$umur', jenis_kelamin='$jenis_kelamin', kelas='$kelas'WHERE id='$id'");
 
 if ($update)
-    header('Location: edit.php');
+    header('Location: list.php');
 else
     echo 'Update data gagal';
 ?>

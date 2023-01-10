@@ -174,11 +174,10 @@ var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
 
  <div>
   <br><br><br><br><br>
-</div><!--
-<br><br>
-    <div class=" text-center">
-             <h6>&copy; copyright 2022. <b>Tim Coding Skensa.</b> All Right Reserved.</h6>
-        </div>  -->
+</div>
+</div>
+<div class=" text-center">
+  <h6>&copy; copyright 2022. <b>Tim Coding Skensa.</b> All Right Reserved.</h6>
 </div>
 </body>
 </html>

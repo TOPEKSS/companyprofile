@@ -89,7 +89,6 @@ $results = mysqli_fetch_all($query, MYSQLI_ASSOC);
                   <p>Umur : <?php echo $result['umur']?></p>
                   <p>Jenis Kelamin : <?php echo $result['jenis_kelamin']?></p>
                   <p>Kelas : <?php echo $result['kelas']?></p></p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
               </div>
             </div>
