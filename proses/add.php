@@ -130,13 +130,20 @@
               <option value="Pria" ><b>Pria</b></option>
               <option value="Wanita"><b>Wanita</b></option>
           </select>
-          <div class="col-md-4" >
+
+          <div class="col-md-4">
+            <label for="html5-date-input" class=" col-form-label">TANGGAL :</label>
+            <div class="col-md-10">
+            <input class="form-control" type="date" value="2021-06-18" id="html5-date-input" />
+            </div>
+          </div>
+          
+      <div class="col-md-4" >
       <label for="validationCustom01" class="form-label text-dark">KELAS :</label>
       <input type="text" name="kelas" class="form-control" id="validationCustom01" value="" required>
-      <div class="valid-feedback">
-        Looks good!
       </div>
-    </div>
+
+    
     <br><br>
     <!--<div class="col-md-6">
       <label for="validationCustom03" class="form-label">City</label>
