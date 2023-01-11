@@ -14,7 +14,7 @@
   
 <nav class="navbar navbar-expand-lg nav-light bg-light fixed-top">
         <div class="container">
-          <div class="gambar"><img src="foto/logo.png" alt=""></div>
+        <div class="gambar"><img class="rounded-circle" src="foto/logo.png " width='40' height='40'  alt=""></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
